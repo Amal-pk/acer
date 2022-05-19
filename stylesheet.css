@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+}
+.top{
+    width: 100%;
+    height: 40px;
+    background-color:#fff;
+    display: flex;
+}
+.top1{
+    width: 50%;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-bottom:solid 1px lightgrey ;
+}
+.icons{
+    margin-left: 85px;
+    padding-left: 10px;
+    fill: gray;
+}
+.icons:hover{
+    fill:black; 
+}
+.icongap{
+    padding-left:5px ;
+    color: lightgray;
+    
+}
+.icongap:hover{
+    fill: black; 
+}
+.icon{
+    padding-left: 10px;
+    fill: gray;
+ }
+.icon:hover{
+    fill: black; 
+}
+.top1-2{
+    width: 50%;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    padding-left: 48%;
+    align-items: center;
+    border-bottom:solid 1px lightgrey ;
+}
+.sign{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-left: 10px;
+    color: gray;
+}
+.sign:hover{
+    color: black;
+}
+.top2{
+    width: 100%;
+    height: 60px;
+    background-color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.logo{
+    margin-left: 68px;   
+    padding-top: 5px;
+    padding-bottom: 40px;
+}
+
+.store:hover{
+    color: black;
+}
+.menu{
+    display: flex;
+}
+.menu p {
+    padding-left: 10px;
+    width: 100px ;
+
+}
+.sreach{
+
+    margin-right: 85px;
+}
+.tp2{
+    font-size: 12px;
+    font-family: Arial, sans-serif;            
+    list-style: none;            
+   padding-left:5px ;            
+   color: gray;
+}
+.tp2:hover{
+    color: black;
+}
+
+.bg-image{
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+
+}
+.acer1{ 
+    background-image: url(acer1.jpg);
+}
+.center-text{
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center; 
+    
+}
+.center-text h3{
+    padding-top: 60px;
+   
+    font-size: 31px;
+    font-family: "Acer Foco", "Trebuchet MS", Arial, sans-serif;
+}
+.center-text h1{
+    padding-top: 25px;
+   padding-bottom: 25PX;
+    font-size: 48.832px;
+    line-height: 73.248PX;
+    font-family: "Acer Foco", "Trebuchet MS", Arial, sans-serif;
+}
+.emptyBlack{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14PX;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    border-radius: 0.25em;;
+}
+.emptyBlack:hover{
+    color: #fff;
+    background-color: black;
+}
+.button{
+    padding: 10px;
+}
+.acer2{ 
+    background-image: url(acer2.jpg);
+}
+.center-text2{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center; 
+}
+.center-text2 h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 48px;
+}
+.center-text2 h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+.emptywhite{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14PX;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 00.25em;
+}
+.emptywhite:hover{
+    color: black;
+    background-color: #fff;
+
+}
+.acer3{
+    background-image: url(acer3.jpg);
+}
+.center-text3{
+    color:black;
+    display: flex;
+    flex-direction: column;
+   padding-top: 100px;
+    align-items: center; 
+}
+.center-text3 h1{
+    font-size: 48px;
+}
+.center-text3 h3{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.image4{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+   text-align: center;
+}
+.lapname{
+   display: flex;
+    font-family: monospace;
+    font-size: large;
+}
+.img4{
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    padding-left: 35px;  
+}
+
+.imgCard{
+    width: 25%;
+    transition:0.1s;
+}
+.imgCard img:hover{
+    transform: scale(1.1);
+}
+.new{
+    color: #fff;
+    font-size: 10px;
+    border:2px solid black ;
+   background-color: black;
+   border-radius: 0.25em;
+}
+.nw{
+    padding: 3px;
+}
+
+.image5{
+    width: 100%;
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+   display: flex;
+}
+.image5 h1{
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 25%;
+    padding-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.acer5{
+    background-image: url(acer5.jpg);
+}
+.acer6{
+    background-image: url(acer6.jpg);
+}
+.acer7{
+    background-image: url(acer7.jpg); 
+}
+.acer8{
+    background-image: url(acer8.jpg);
+} 
+.imgCard img {
+    max-width: 100%;
+
+}
+.bottm1{
+    background-color: gray;
+    height: auto;
+
+}
+.b1l{
+    margin-left:25%;
+    margin-right: 15%;
+    padding-bottom: 25px;
+    display: flex;
+}
+.text{
+    padding-top: 100px;
+    list-style-type: none;
+    color: #fff;
+}
+.text h4{
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 8PX;
+}
+.text li{
+    padding: 10px 0;
+    font-size: 12px;
+}
+.text1{
+    padding-top: 100px;
+    list-style-type: none;
+    color: #fff;
+    padding-left: 40px;
+}
+.text1 h4{
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 8PX;
+    
+}
+.text1 li{
+    padding: 10px 0;
+    font-size: 12px;
+}
+.text2{
+    padding-top: 100px;
+    list-style-type: none;
+    color: #fff;
+    padding-left: 40px;
+}
+.text2 h4{
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 8PX;
+}
+.text2 li{
+    padding: 8px 0;
+    font-size: 12px;
+}
+.text3{
+    padding-top: 100px;
+    list-style-type: none;
+    color: #fff;
+    padding-left: 40px;
+}
+.text3 h4{
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 8PX;
+}
+.text3 li{
+    padding: 10px 0;
+    font-size: 12px;
+}
+.bottm2{
+    width: 100%;
+    height: 80px;
+    background-color:rgb(37, 35, 35);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border-bottom: 0.5px solid #fff;
+}
+
+.last-logos{
+    height: 50px;
+    justify-content:space-around;
+    
+}
+.logo-las{ 
+    padding-top: 30px;
+   
+}
+.last-logos:hover{
+    fill: #fff;
+}
+.iconslas{
+    padding-left: 30px;
+    fill: grey;
+}
+.bottm3{
+    background-color:rgb(37, 35, 35);
+    height: auto;
+    padding: 50px;
+    display: flex;
+   justify-content: space-between;
+}
+.iconset{
+    display: flex;
+}
+.sl{
+    background-color: grey;
+    width: 20px;
+    height: 20px;
+    padding-left:5px;
+    border: 4px solid grey;
+    border-radius: 10px;
+    margin-right: 10px;  
+}
+.text-last{
+    color: grey;
+    text-align: center; 
+   
+}
+.text-last h1{
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+.text-last h2{
+    font-size: 12px;
+    
+}
+.ind h2{
+    font-size: 14px;
+    color: grey;
+}
